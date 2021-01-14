@@ -1,0 +1,13 @@
+{
+    "all": {
+        "info": [
+            {
+                "teams": {
+                    "equipe1": "equipe1",
+                    "equipe2": "equipe2"
+                },
+                "data": {}
+            }
+        ]
+    }
+}

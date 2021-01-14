@@ -1,0 +1,95 @@
+<html>
+
+<head>
+  <script src="graph_moam.js"></script>
+  <style>
+    .container {
+      display: flex;
+
+    }
+
+    .label {
+      flex: 1;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    .x {
+      flex: 3;
+      text-align: center;
+      background-color: rgba(235, 113, 101, 0.73);
+      margin: 10px;
+    }
+
+    .y {
+      flex: 3;
+      text-align: center;
+      background-color: rgba(70, 163, 71, 0.64);
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .z {
+      flex: 3;
+      text-align: center;
+      background-color: rgba(70, 140, 215, 0.74);
+      margin: 10px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+</head>
+
+<body>
+  <h1>Wave buoy real time stream</h1>
+  <div id="labelAccel" class="label">
+    <h2> Acceleration </h2>
+  </div>
+
+  <div id="accelContainer" class="container">
+
+    <div id="xAccel" class="x">
+
+      <canvas id="xAccelChart"></canvas>
+    </div>
+    <!--xAccel-->
+    <div id="yAccel" class="y">
+
+      <canvas id="yAccelChart"></canvas>
+    </div>
+    <!--yAccel-->
+    <div id="zAccel" class="z">
+
+      <canvas id="zAccelChart"></canvas>
+    </div>
+    <!--zAccel-->
+  </div>
+  <!--accelContainer-->
+  <div id="labelGyro" class="label">
+    <h2> Heading </h2>
+  </div>
+
+  <div id="orientationContainer" class="container">
+    <div id="Roll" class="x">
+      <canvas id="rollChart"></canvas>
+    </div>
+    <!--xgyro-->
+    <div id="Pitch" class="y">
+      <canvas id="pitchChart"></canvas>
+    </div>
+    <!--ygyro-->
+    <div id="Yaw" class="z">
+      <canvas id="yawChart"></canvas>
+    </div>
+    <!--zgyro-->
+  </div>
+  <!--gyroContainer-->
+
+</body>
+
+</html>

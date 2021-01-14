@@ -1,0 +1,144 @@
+{
+    "curves": [
+        {
+            "name": "Date",
+            "description": "",
+            "type": "",
+            "unit": "",
+            "valueType": "date"
+        },
+        {
+            "name": "Time",
+            "description": "",
+            "type": "",
+            "unit": "",
+            "valueType": "time"
+        },
+        {
+            "name": "hp_pressure",
+            "description": "",
+            "type": "refigeration_circuit",
+            "unit": "bar",
+            "valueType": "float"
+        },
+        {
+            "name": "lp_pressure",
+            "description": "",
+            "type": "refigeration_circuit",
+            "unit": "bar",
+            "valueType": "float"
+        },
+        {
+            "name": "condensing_temp",
+            "description": "",
+            "type": "refigeration_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "evaporating_temp",
+            "description": "",
+            "type": "refigeration_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "liquid_temp",
+            "description": "",
+            "type": "refigeration_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "suction_temp",
+            "description": "",
+            "type": "refigeration_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "discharge_temp",
+            "description": "",
+            "type": "refigeration_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "condenser_air_inlet_temp",
+            "description": "",
+            "type": "aeraulic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "condenser_air_outlet_temp",
+            "description": "",
+            "type": "aeraulic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "evaporator_air_inlet_temp",
+            "description": "",
+            "type": "aeraulic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "evaporator_air_outlet_temp",
+            "description": "",
+            "type": "aeraulic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "condenser_water_inlet_temp",
+            "description": "",
+            "type": "fluidic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "condenser_water_outlet_temp",
+            "description": "",
+            "type": "fluidic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "evaporator_water_inlet_temp",
+            "description": "",
+            "type": "fluidic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "evaporator_water_outlet_temp",
+            "description": "",
+            "type": "fluidic_circuit",
+            "unit": "degC",
+            "valueType": "float"
+        },
+        {
+            "name": "L1_comp_current",
+            "description": "",
+            "type": "electric_circuit",
+            "unit": "amps",
+            "valueType": "float"
+        },
+        {
+            "name": "L2_comp_current",
+            "description": "",
+            "type": "electric_circuit",
+            "unit": "amps",
+            "valueType": "float"
+        },
+        {
+            "name": "L3_comp_current",
+            "description": "",
+            "type": "electric_circuit",
+            "unit": "amps",
+            "valueType": "float"
+        }
+    ]
+}
